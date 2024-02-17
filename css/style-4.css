@@ -1,0 +1,122 @@
+body {
+    background-image: url("../image/Sea.jpg");
+    background-size: cover;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header {
+    background-color: green;
+    color: white;
+    min-height: 70px;
+    padding-top: 30px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 5px 8px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+header nav li {
+    float: center;
+    display: inline;
+    padding: 0 35px 0 35px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.books {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.books img {
+    max-width: 100%;
+}
+
+.books p {
+    margin: 5px 0;
+	color:white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.BtnPayment {
+    text-align: center; 
+}
+
+.BtnPayment button {
+    display: block; 
+    margin: 0 auto; 
+    font-size: 18px;
+    padding: 12px 20px;
+	width: 500px;
+   
+}#goToTopBtn{
+	
+	width:150px;
+	height: 50px;
+	padding: 15px 20px;
+	background-color: white;
+	color: blue;
+	border: none;
+	border-radius: 5px;
+	text-decoration:none;
+	display:inline-block;
+	text-align: center;
+	font-size:16px;
+}
+
+footer {
+    padding: 60px;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    margin-top: auto;
+}
+
+search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+
+#searchBar {
+    width: 1000px; 
+    padding: 10px; 
+    font-size: 16px; 
+}
+
+
+button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+}
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+}

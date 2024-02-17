@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset ="UTF-8">
+    <title>Project</title>
+	<script src="./js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+<header>
+		
+	<div class="header-container">
+		<nav>
+			<ul>
+				<li><a href="./Home.html" >Home</a></li>
+				<li><a href="./Login.html" class="Login">Login</a></li>
+			</ul>
+		</nav>
+		
+	</div>
+	
+</header>
+	<div class="login-container">
+	<h2>Login</h2>
+	<form id="loginForm">
+	<div class="input-group">
+	<label for="username">Username</label>
+	<input type="text" id="username" name="username" required>
+	</div>
+	<div class="input-group">
+	<label for="password">Password</label>
+	<input type="password" id="password" name="password" required>
+	</div>
+	<input type="button" value="Login" onclick="login()">
+	<p>The Username is admin</p>
+	<p>The Password is 12345</p>
+	</form>
+	</div>
+</body>
+<footer>
+	<p>Copyright &copy; 2023 My Website</p>	
+</footer>
+</html>
